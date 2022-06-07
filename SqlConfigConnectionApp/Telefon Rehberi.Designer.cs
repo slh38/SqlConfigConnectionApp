@@ -41,8 +41,8 @@ namespace SqlConfigConnectionApp
             this.buttonInsert = new System.Windows.Forms.Button();
             this.buttonUpdate = new System.Windows.Forms.Button();
             this.buttonDelete = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.buttonExport = new System.Windows.Forms.Button();
+            this.buttonImport = new System.Windows.Forms.Button();
             this.labelKisiSAyisi = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -160,23 +160,23 @@ namespace SqlConfigConnectionApp
             this.buttonDelete.Text = "SİL";
             this.buttonDelete.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // buttonExport
             // 
-            this.button4.Location = new System.Drawing.Point(13, 320);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(199, 54);
-            this.button4.TabIndex = 2;
-            this.button4.Text = "buttonExport";
-            this.button4.UseVisualStyleBackColor = true;
+            this.buttonExport.Location = new System.Drawing.Point(13, 320);
+            this.buttonExport.Name = "buttonExport";
+            this.buttonExport.Size = new System.Drawing.Size(199, 54);
+            this.buttonExport.TabIndex = 2;
+            this.buttonExport.Text = "JSON EXPORT";
+            this.buttonExport.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // buttonImport
             // 
-            this.button5.Location = new System.Drawing.Point(12, 380);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(199, 54);
-            this.button5.TabIndex = 2;
-            this.button5.Text = "buttonImport";
-            this.button5.UseVisualStyleBackColor = true;
+            this.buttonImport.Location = new System.Drawing.Point(12, 380);
+            this.buttonImport.Name = "buttonImport";
+            this.buttonImport.Size = new System.Drawing.Size(199, 54);
+            this.buttonImport.TabIndex = 2;
+            this.buttonImport.Text = "JSON İMPORT";
+            this.buttonImport.UseVisualStyleBackColor = true;
             // 
             // labelKisiSAyisi
             // 
@@ -193,8 +193,8 @@ namespace SqlConfigConnectionApp
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.labelKisiSAyisi);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
+            this.Controls.Add(this.buttonImport);
+            this.Controls.Add(this.buttonExport);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "Telefon_Rehberi";
@@ -223,8 +223,8 @@ namespace SqlConfigConnectionApp
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.DataGridView dataGridViewKisiler;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button buttonExport;
+        private System.Windows.Forms.Button buttonImport;
         private System.Windows.Forms.Label labelKisiSAyisi;
     }
 }
